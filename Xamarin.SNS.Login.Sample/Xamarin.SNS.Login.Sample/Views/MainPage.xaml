@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Xamarin.SNS.Login.Sample.Views.MainPage" 
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             Title="{Binding Title}">
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <ffimageloading:CachedImage x:Name="ProfilePhoto" 
+                                        HorizontalOptions="Center" 
+                                        VerticalOptions="Center" 
+                                        WidthRequest="90" 
+                                        HeightRequest="90" 
+                                        DownsampleToViewSize="true" 
+                                        Source="{Binding User.PictureUrl}" 
+                                        LoadingPlaceholder="placeholderProfileImage.png">
+                <ffimageloading:CachedImage.Transformations>
+                    <fftransformations:CircleTransformation BorderSize="5" BorderHexColor="#547799"/>
+                </ffimageloading:CachedImage.Transformations>
+            </ffimageloading:CachedImage>
+        <Label Text="{Binding User.Name}" HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>
