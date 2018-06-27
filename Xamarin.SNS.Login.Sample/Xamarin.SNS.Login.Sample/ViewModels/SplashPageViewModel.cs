@@ -28,7 +28,7 @@ namespace Xamarin.SNS.Login.Sample.ViewModels
 										(
 										  async () =>
 											{
-											await Task.Delay(3000);
+                                                await Task.Delay(3000); //<- lottie 화면 샘플용으로 설정하였음. 실제 코드에서는 사용하지 마세요.
     											if (await authenticationService.UserIsAuthenticatedAndValidAsync())
     											{
     												var user = AppSettings.User;
