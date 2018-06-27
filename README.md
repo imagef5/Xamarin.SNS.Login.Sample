@@ -22,7 +22,7 @@
 * [Id 공급자를 통해 사용자 인증][0]
 * [Kakao Developers][1]
 * [Line Developers][2]
-* [Facebook Login : 액세스 토큰][1]
+* [Facebook Login : 액세스 토큰][3]
 
 [0]:https://docs.microsoft.com/ko-kr/xamarin/xamarin-forms/data-cloud/authentication/oauth
 [1]:https://developer.kakao.com/
