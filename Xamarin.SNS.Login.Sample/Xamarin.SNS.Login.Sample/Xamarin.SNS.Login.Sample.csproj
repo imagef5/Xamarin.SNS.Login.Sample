@@ -21,10 +21,10 @@
     <Folder Include="Services\" />
     <Folder Include="Services\Authentication\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\AuthenticationState.cs" />
+    <Compile Remove="Helpers\AuthenticationHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Views\SplashView.xaml.cs">

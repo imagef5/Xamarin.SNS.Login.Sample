@@ -8,11 +8,11 @@ using Xamarin.Auth;
 
 namespace Xamarin.SNS.Login.Sample.Models.Providers
 {
-    public class FacebookOAutho2 : OAuth2Base
+    public class FacebookOAuth2 : OAuth2Base
     {
-        private static readonly Lazy<FacebookOAutho2> lazy = new Lazy<FacebookOAutho2>(() => new FacebookOAutho2());
+        private static readonly Lazy<FacebookOAuth2> lazy = new Lazy<FacebookOAuth2>(() => new FacebookOAuth2());
 
-        public static FacebookOAutho2 Instance
+        public static FacebookOAuth2 Instance
         {
             get
             {
@@ -20,7 +20,7 @@ namespace Xamarin.SNS.Login.Sample.Models.Providers
             }
         }
 
-        private FacebookOAutho2()
+        private FacebookOAuth2()
         {
             Initialize();
         }
@@ -30,8 +30,8 @@ namespace Xamarin.SNS.Login.Sample.Models.Providers
             ProviderName = "Facebook";
             Description = "Facebook Login Provider";
             Provider = SNSProvider.Facebook;
-            ClientId = "Your facebook Client Id"; 
-            ClientSecret = "Your facebook secret key";
+            ClientId = "Your facebook Client Id";
+            ClientSecret = "Your facebook Client Secret";
             Scope = "email";
             AuthorizationUri = new Uri("https://www.facebook.com/dialog/oauth");
             RequestTokenUri = new Uri("https://graph.facebook.com/oauth/access_token");

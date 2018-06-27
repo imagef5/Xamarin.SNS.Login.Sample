@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 using Xamarin.Auth;
 using Xamarin.Forms;
-using Xamarin.SNS.Login.Sample.Helpers;
 using Xamarin.SNS.Login.Sample.Models;
 using Xamarin.SNS.Login.Sample.Models.Providers;
-using Xamarin.SNS.Login.Sample.ViewModels;
 
 namespace Xamarin.SNS.Login.Sample.Services.Authentication
 {
-	public class AuthenticationService : IAuthenticationService
+    public class AuthenticationService : IAuthenticationService
 	{
 		OAuth2Base oAuth2;
 

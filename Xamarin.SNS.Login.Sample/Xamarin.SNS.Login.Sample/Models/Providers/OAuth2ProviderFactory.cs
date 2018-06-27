@@ -10,13 +10,13 @@ namespace Xamarin.SNS.Login.Sample.Models.Providers
             switch (provider)
             {
                 case SNSProvider.Kakao:
-                    oAuth2 = KakaoOAutho2.Instance;
+                    oAuth2 = KakaoOAuth2.Instance;
                     break;
                 case SNSProvider.Line:
-                    oAuth2 = LineOAutho2.Instance;
+                    oAuth2 = LineOAuth2.Instance;
                     break;
                 case SNSProvider.Facebook:
-                    oAuth2 = FacebookOAutho2.Instance;
+                    oAuth2 = FacebookOAuth2.Instance;
                     break;
             }
 
