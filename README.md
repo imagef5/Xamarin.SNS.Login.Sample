@@ -32,9 +32,11 @@
 * [Line Developers][2]
 * [Facebook Login : 액세스 토큰][3]
 * [Animations with Lottie][4]
+* [SmartHotel360 mobile desktop app][5]
 
 [0]:https://docs.microsoft.com/ko-kr/xamarin/xamarin-forms/data-cloud/authentication/oauth
 [1]:https://developer.kakao.com/
 [2]:https://developers.line.me/en/
 [3]:https://developers.facebook.com/docs/facebook-login/access-tokens
 [4]:https://blog.xamarin.com/bring-stunning-animations-to-your-apps-with-lottie/
+[5]:https://github.com/Microsoft/SmartHotel360-mobile-desktop-apps
