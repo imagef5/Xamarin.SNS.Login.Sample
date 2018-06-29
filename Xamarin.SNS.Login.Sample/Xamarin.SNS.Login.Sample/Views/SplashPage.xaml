@@ -12,20 +12,6 @@
                                         Command="{Binding AuthenticationCheckCommand}"/>
     </ContentPage.Behaviors>
     <ContentPage.Content>
-        <!--Grid    
-            AutomationId="splash">
-            <Image Aspect="AspectFill">
-                <Image.Source>
-                    <OnPlatform x:TypeArguments="ImageSource">
-                        <On Platform="iOS" Value="Default" />
-                    </OnPlatform>
-                </Image.Source>
-            </Image>
-            <ActivityIndicator 
-                Color="{StaticResource AccentColor}"
-                IsRunning="{Binding IsBusy}" 
-                IsVisible="{Binding IsBusy}" />
-        </Grid-->
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <lottie:AnimationView 
             x:Name="animationView" 

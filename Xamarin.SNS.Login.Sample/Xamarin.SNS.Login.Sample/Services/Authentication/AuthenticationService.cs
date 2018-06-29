@@ -47,7 +47,7 @@ namespace Xamarin.SNS.Login.Sample.Services.Authentication
 					oAuth2.RedirectUri,
 					oAuth2.RequestTokenUri,
 					null,
-					false);
+                    oAuth2.IsUsingNativeUI);
 
 			//authenticator.Completed += OnAuthCompleted;
 			//authenticator.Error += OnAuthError;
