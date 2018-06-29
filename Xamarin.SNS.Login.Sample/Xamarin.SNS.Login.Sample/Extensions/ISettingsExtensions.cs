@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+ * 소스 참조 : https://github.com/Microsoft/SmartHotel360-mobile-desktop-apps
+ */
+using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Plugin.Settings.Abstractions;
