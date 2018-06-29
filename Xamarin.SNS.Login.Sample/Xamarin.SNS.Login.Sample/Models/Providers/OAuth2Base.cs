@@ -16,6 +16,7 @@ namespace Xamarin.SNS.Login.Sample.Models.Providers
         public Uri RedirectUri { get; set; }
         public Uri RequestTokenUri { get; set; }
         public Uri UserInfoUri { get; set; }
+        public bool IsUsingNativeUI { get; set; } = false;
 
         public abstract Task<User> GetUserInfoAsync(Account account);
         public abstract Task<(bool IsRefresh, User User)> RefreshTokenAsync(User user);
