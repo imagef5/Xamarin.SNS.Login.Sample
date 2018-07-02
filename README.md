@@ -26,6 +26,8 @@
 |라인 로그인|페이스북 로그인|
 |![라인 로그인](https://dongsasubstorage.blob.core.windows.net/images/uploads/login_line.png)|![페이스북 로그인](https://dongsasubstorage.blob.core.windows.net/images/uploads/login_facebook.png)|
 
+* 안드로이드 에뮬레이터 실행시 API Level 25 이상에서 지원합니다.
+
 ## Reference
 * [Id 공급자를 통해 사용자 인증][0]
 * [Kakao Developers][1]
