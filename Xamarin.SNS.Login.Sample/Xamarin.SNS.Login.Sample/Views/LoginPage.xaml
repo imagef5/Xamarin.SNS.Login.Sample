@@ -13,7 +13,7 @@
             <Button Image="btn_login_base.png"
                     Command="{Binding SNSSignInCommand}"
                     CommandParameter="{x:Static models:SNSProvider.Line}"/>
-           <Button Image="login-button-png-18029.png"
+           <Button Image="login_button_png_18029.png"
                     Command="{Binding SNSSignInCommand}"
                     CommandParameter="{x:Static models:SNSProvider.Facebook}"/> 
         </StackLayout>
